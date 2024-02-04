@@ -9,7 +9,7 @@ export default WelcomeSlide = ({ title, subText, img }) => {
         </View>
 
         <View style={styles.textCont}>
-          <Text style={styles.heading}>{title}</Text>
+          <Text className="text-red-500">{title}</Text>
           <Text style={styles.subText}>{subText}</Text>
         </View>
       </View>
